@@ -1,0 +1,14 @@
+{
+    "name": "otk",
+    "description": "otk site",
+    "keywords": ["heroku", "otk", "php", "apache", "nginx", ""],
+    "homepage": "https://github.com/jenia0jenia/otk",
+    "type": "app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jenia0jenia",
+            "email": "jenia0jenia@mail.ru"
+        }
+    ]
+}
