@@ -5729,10 +5729,14 @@ textarea {
   resize: none; }
 
 #header {
+  background: url("/../img/1.jpg");
+
   z-index: 5003; }
 
 .columns-container {
-  background: #fff; }
+  background: #fff; 
+  /*background: #333;*/
+}
 
 #columns {
   position: relative;
@@ -7146,7 +7150,9 @@ div.star a:hover {
   color: #333; }
 
 .header-container {
-  background: #fff; }
+  background: url("/../img/1.jpg");
+  /*background: #fff; */
+}
 
 .breadcrumb {
   display: inline-block;
@@ -7241,14 +7247,16 @@ div.star a:hover {
     width: 20px; }
 
 .footer-container {
-  background-color: #333; }
+  background: url("/../img/keyboard-bg.jpg") 100% 100% #333; }
   @media (min-width: 768px) {
     .footer-container {
-      background: url(../img/footer-bg.png) repeat-x #333; } }
+      background: url("/../img/keyboard-bg.jpg") 100% 100% #333; 
+      /*background: url(../img/footer-bg.png) repeat-x #333; } */
+    }
   .footer-container .container {
     padding-bottom: 100px; }
   .footer-container #footer {
-    color: #777777; }
+    color: #ccc; }
     .footer-container #footer .row {
       position: relative; }
     .footer-container #footer ul.row {
@@ -7259,7 +7267,7 @@ div.star a:hover {
         .footer-container #footer .footer-block {
           margin-top: 20px; } }
     .footer-container #footer a {
-      color: #777777; }
+      color: #ccc; }
       .footer-container #footer a:hover {
         color: #fff; }
     .footer-container #footer h4 {
@@ -7282,7 +7290,7 @@ div.star a:hover {
           .footer-container #footer h4.active:after {
             content: "\f056"; } }
       .footer-container #footer h4 a {
-        color: #fff; }
+        color: #ccc; }
     .footer-container #footer ul li {
       padding-bottom: 8px; }
       .footer-container #footer ul li a {
@@ -7304,7 +7312,7 @@ div.star a:hover {
           line-height: 30px; }
           .footer-container #footer #block_contact_infos > div ul li > span,
           .footer-container #footer #block_contact_infos > div ul li > span a {
-            color: #fff;
+            color: #ccc;
             font-weight: normal; }
           .footer-container #footer #block_contact_infos > div ul li i {
             font-size: 25px;
