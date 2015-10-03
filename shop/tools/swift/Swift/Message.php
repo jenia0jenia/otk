@@ -76,7 +76,7 @@ class Swift_Message extends Swift_Message_Mime
     }
     $this->setReturnPath(null);
     $this->setTo("");
-    $this->setFrom("");
+    $this->setFrom("info@otk74.ru");
     $this->setCc(null);
     $this->setBcc(null);
     $this->setReplyTo(null);

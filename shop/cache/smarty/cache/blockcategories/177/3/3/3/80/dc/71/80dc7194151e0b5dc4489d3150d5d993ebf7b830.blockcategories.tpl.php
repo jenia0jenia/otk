@@ -1,0 +1,31 @@
+<?php /*%%SmartyHeaderCode:11877560fa3e0ae4c86-81284984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '80dc7194151e0b5dc4489d3150d5d993ebf7b830' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\shop\\themes\\default-bootstrap\\modules\\blockcategories\\blockcategories.tpl',
+      1 => 1443436439,
+      2 => 'file',
+    ),
+    '382917f0d7e411e4c0ce047f9a26836513daa237' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\shop\\themes\\default-bootstrap\\modules\\blockcategories\\category-tree-branch.tpl',
+      1 => 1443436439,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '11877560fa3e0ae4c86-81284984',
+  'variables' => 
+  array (
+    'blockCategTree' => 0,
+    'currentCategory' => 0,
+    'isDhtml' => 0,
+    'child' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_560fa3e0b793b4_94451801',
+  'cache_lifetime' => 31536000,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_560fa3e0b793b4_94451801')) {function content_560fa3e0b793b4_94451801($_smarty_tpl) {?><div id="categories_block_left" class="block"><h2 class="title_block"> Продукция</h2><div class="block_content"><ul class="tree dhtml"><li > <a href="http://localhost/shop/14-shtangencirkuli-mekhanicheskie" title="Штангенциркули механические ГОСТ 166-89 ГОСРЕЕСТР 52630-13"> Штангенциркули механические </a></li><li > <a href="http://localhost/shop/15-shtangencirkuli-cifrovye" title="Штангенциркули цифровые ГОСТ 166-89 ГОСРЕЕСТР 52630-13"> Штангенциркули цифровые </a></li><li > <a href="http://localhost/shop/17-mikrometry-mekhanicheskie" title="Микрометры механические гладкие ГОСТ 6507-90 ГОСРЕЕСТР 52631-13"> Микрометры механические </a></li><li > <a href="http://localhost/shop/18-mikrometry-cifrovye" title="Микрометры цифровые ГОСТ 6507-90 ГОСРЕЕСТР 52631-13"> Микрометры цифровые </a></li><li > <a href="http://localhost/shop/20-mikrometry-rychazhnye" title="Микрометры рычажные ГОСТ 4381-87"> Микрометры рычажные </a></li><li > <a href="http://localhost/shop/21-mikrometry-so-vstavkami" title="Микрометры со вставками ГОСТ 4380-93"> Микрометры со вставками </a></li><li > <a href="http://localhost/shop/22-skoby-rychazhnye" title="Скобы рычажные ГОСТ 11098-75"> Скобы рычажные </a></li><li > <a href="http://localhost/shop/23-stenkomery-indikatornye" title="Стенкомеры индикаторные ГОСТ 11358-89"> Стенкомеры индикаторные </a></li><li > <a href="http://localhost/shop/24-nutromery-indikatornye" title="Нутромеры индикаторные ГОСТ 868-82 ГОСРЕЕСТР 52611-13"> Нутромеры индикаторные </a></li><li > <a href="http://localhost/shop/25-nutromery-mikrometricheskie" title="Нутромеры микрометрические ГОСТ 10-88"> Нутромеры микрометрические </a></li><li > <a href="http://localhost/shop/26-indikatory-chasovogo-tipa" title="Индикаторы часового типа ГОСТ 577-68 ГОСРЕЕСТР 52612-13. Индикаторы ИРБ"> Индикаторы часового типа </a></li><li > <a href="http://localhost/shop/27-shtangenglubinomery-mekhanicheskie" title="Штангенглубиномеры механические ГОСТ 162-90"> Штангенглубиномеры механические </a></li><li > <a href="http://localhost/shop/28-shtangenrejsmasy-mekhanicheskie" title="Штангенрейсмасы механические ГОСТ 164-90"> Штангенрейсмасы механические </a></li><li > <a href="http://localhost/shop/29-uglomery-universalnye" title="Угломеры универсальные ГОСТ 5378-88"> Угломеры универсальные </a></li><li > <a href="http://localhost/shop/30-ugolniki-poverochnye" title="Угольники поверочные ГОСТ 3749-77"> Угольники поверочные </a></li><li > <a href="http://localhost/shop/31-ugolniki-s-shirokim-osnovaniem" title="Угольники с широким основанием ГОСТ 3749-77"> Угольники с широким основанием </a></li><li > <a href="http://localhost/shop/32-stojki-shtativy" title="Стойки Штативы"> Стойки Штативы </a></li><li > <a href="http://localhost/shop/33-shablony-rezbovye" title="Шаблоны резьбовые ТУ-2-034-228-87"> Шаблоны резьбовые </a></li><li > <a href="http://localhost/shop/34-shablony-radiusnye" title="Шаблоны радиусные"> Шаблоны радиусные </a></li><li > <a href="http://localhost/shop/35-ruletki" title="Рулетки"> Рулетки </a></li><li > <a href="http://localhost/shop/36-ruletki-po-gost-7502-98" title="Рулетки по ГОСТ 7502-98"> Рулетки по ГОСТ 7502-98 </a></li><li > <a href="http://localhost/shop/37-glubinomery-mikrometricheskie" title="Глубиномеры микрометрические ГОСТ 7470-92"> Глубиномеры микрометрические </a></li><li > <a href="http://localhost/shop/38-glubinomery-indikatornye" title="Глубиномеры индикаторные ГОСТ 7661-67"> Глубиномеры индикаторные </a></li><li > <a href="http://localhost/shop/39-prizmy-poverochnye-i-razmetochnye" title="Призмы поверочные и разметочные"> Призмы поверочные и разметочные </a></li><li > <a href="http://localhost/shop/40-linejki-izmeritelnye" title="Линейки измерительные по ГОСТ 427-75"> Линейки измерительные </a></li><li > <a href="http://localhost/shop/41-linejki-poverochnye-tip-shd" title="Линейки поверочные тип ШД ГОСТ 8026-92"> Линейки поверочные тип ШД </a></li><li > <a href="http://localhost/shop/42-linejki-poverochnye-tip-shp" title="Линейки поверочные тип ШМ ГОСТ 8026-92"> Линейки поверочные тип ШП </a></li><li > <a href="http://localhost/shop/44-linejka-sinusnaya-tip-ls" title="Линейка синусная тип ЛС ГОСТ 4046-80"> Линейка синусная тип ЛС </a></li><li > <a href="http://localhost/shop/45-linejki-izmeritelnye-s-poverkoj" title="Линейки измерительные с поверкой по ГОСТ 427-75"> Линейки измерительные с поверкой </a></li><li > <a href="http://localhost/shop/46-plita-poverochnaya-chugunnaya" title="Плита поверочная чугунная ГОСТ 10905-86"> Плита поверочная чугунная </a></li><li > <a href="http://localhost/shop/47-plita-poverochnaya-granitnaya" title="Плита поверочная гранитная ГОСТ 10905-86"> Плита поверочная гранитная </a></li><li > <a href="http://localhost/shop/48-universalnyj-shablon-svarshhika" title="Универсальный шаблон сварщика ТУ 102-338-83"> Универсальный шаблон сварщика </a></li><li > <a href="http://localhost/shop/49-nabory-shhupov" title="Наборы щупов ТУ 2-034-0221197-011-91"> Наборы щупов </a></li><li class="last"> <a href="http://localhost/shop/50-nabor-koncevykh-mer-dliny" title="Набор концевых мер длины (КМД) ГОСТ 9038-90"> Набор концевых мер длины </a></li></ul></div></div><?php }} ?>

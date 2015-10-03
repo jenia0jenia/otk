@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-09-24 03:15:30
+<?php /* Smarty version Smarty-3.1.19, created on 2015-10-03 13:27:29
          compiled from "C:\xampp\htdocs\shop\admin342hwnbab\themes\default\template\controllers\stats\helpers\view\view.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10327560340a2dbdad3-90619024%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13677560fad918adaa5-77070881%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '12aa379eaeffa2e55e9abd80c107e00362f3918c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\admin342hwnbab\\themes\\default\\template\\controllers\\stats\\helpers\\view\\view.tpl',
-      1 => 1440045812,
+      1 => 1443435368,
       2 => 'file',
     ),
     '24ce799cc731cd074109b91fd296dc961d52c4b6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\admin342hwnbab\\themes\\default\\template\\helpers\\view\\view.tpl',
-      1 => 1440045812,
+      1 => 1443435404,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10327560340a2dbdad3-90619024',
+  'nocache_hash' => '13677560fad918adaa5-77070881',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_560340a2e3aae0_58369253',
+  'unifunc' => 'content_560fad919421c4_55837205',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_560340a2e3aae0_58369253')) {function content_560340a2e3aae0_58369253($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_560fad919421c4_55837205')) {function content_560fad919421c4_55837205($_smarty_tpl) {?>
 
 <div class="leadin"></div>
 

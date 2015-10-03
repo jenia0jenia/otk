@@ -47,7 +47,7 @@
 			<!-- END Create account / Guest account / Login block -->
 		{/if}
 		<!-- Carrier -->
-		{include file="$tpl_dir./order-carrier.tpl"}
+		{*include file="$tpl_dir./order-carrier.tpl"*}
 		<!-- END Carrier -->
 	
 		<!-- Payment -->

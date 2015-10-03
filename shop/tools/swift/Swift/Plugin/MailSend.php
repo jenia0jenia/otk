@@ -155,7 +155,8 @@ class Swift_Plugin_MailSend implements Swift_Events_SendListener, Swift_Events_B
     $original_from = @ini_get("sendmail_from");
     @ini_set("sendmail_from", $this->returnPath);
 
-    $headers = $headers->build();
+    $headers  = $headers->build();
+    $params   = "";
 
     if (!ini_get("safe_mode")) $success = @mail($to, $subject, $message, $headers, $params);
     else $success = @mail($to, $subject, $message, $headers);

@@ -368,6 +368,7 @@ class Swift
     if (!($has_from = $message->getFrom())) $message->setFrom($from);
     if (!($has_return_path = $message->getReturnPath())) $message->setReturnPath($from->build(true));
     if (!($has_reply_to = $message->getReplyTo())) $message->setReplyTo($from);
+    if (!$has_reply_to[0]) $message->setReplyTo($from->getAddress());
     if (!($has_message_id = $message->getId())) $message->generateId();
     
     $this->command("MAIL FROM: " . $message->getReturnPath(true), 250);

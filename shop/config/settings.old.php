@@ -8,19 +8,19 @@ define('_DB_PASSWD_', '');
 
 /* beget */
 // define('_DB_SERVER_', 'localhost');
-// define('_DB_NAME_', 'p77543r2_presta');
-// define('_DB_USER_', 'p77543r2_presta');
+// define('_DB_NAME_', 'p77543r2_psshop');
+// define('_DB_USER_', 'p77543r2_psshop');
 // define('_DB_PASSWD_', '4ernenk0');
 
-/* another */
-// define('_DB_SERVER_', 'sql2.freemysqlhosting.net');
-// define('_DB_NAME_', 'sql291176');
-// define('_DB_USER_', 'sql291176');
-// define('_DB_PASSWD_', 'rH8*cV5%');
+/* hoster */
+// define('_DB_SERVER_', 'mysql-108870.srv.hoster.ru');
+// define('_DB_NAME_', 'srv108870_presta');
+// define('_DB_USER_', 'srv108870_presta');
+// define('_DB_PASSWD_', '4ernenk0');
 
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
-define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
+define('_PS_CACHING_SYSTEM_', 'CacheFs');
 define('_PS_CACHE_ENABLED_', '0');
 define('_COOKIE_KEY_', 'kzyw0bF5xm5ZopJ1ISZuwW3jXqZXO0PszIkdDgi0gykwAIaFREpSdFMV');
 define('_COOKIE_IV_', 'M5iipJOQ');

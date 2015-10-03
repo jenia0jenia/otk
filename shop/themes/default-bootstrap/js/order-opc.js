@@ -153,7 +153,7 @@ $(document).ready(function(){
 				params = 'method=editCustomer&';
 			}
 
-			$('#opc_account_form input:visible, #opc_account_form input[type=hidden]').each(function() {
+			$('#opc_account_form input:hidden, #opc_account_form input:visible, #opc_account_form input[type=hidden]').each(function() {
 				if ($(this).is('input[type=checkbox]'))
 				{
 					if ($(this).is(':checked'))
@@ -168,7 +168,7 @@ $(document).ready(function(){
 					params += encodeURIComponent($(this).attr('name'))+'='+encodeURIComponent($(this).val())+'&';
 			});
 
-			$('#opc_account_form select:visible').each(function() {
+			$('#opc_account_form select:visible, #opc_account_form select:hidden').each(function() {
 				params += encodeURIComponent($(this).attr('name'))+'='+encodeURIComponent($(this).val())+'&';
 			});
 			params += 'customer_lastname='+encodeURIComponent($('#customer_lastname').val())+'&';

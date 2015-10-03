@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-09-24 01:32:43
+<?php /* Smarty version Smarty-3.1.19, created on 2015-10-03 12:46:09
          compiled from "C:\xampp\htdocs\shop\themes\default-bootstrap\modules\blockcontactinfos\blockcontactinfos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:238195603288bea91c0-28101819%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:8520560fa3e1080b38-01119135%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c48c1df1a1904b8a9e4a2051177ddd565dbcc3a6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\themes\\default-bootstrap\\modules\\blockcontactinfos\\blockcontactinfos.tpl',
-      1 => 1440045812,
+      1 => 1443543031,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '238195603288bea91c0-28101819',
+  'nocache_hash' => '8520560fa3e1080b38-01119135',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5603288bed4144_51231418',
+  'unifunc' => 'content_560fa3e10af931_64833046',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5603288bed4144_51231418')) {function content_5603288bed4144_51231418($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'C:\\xampp\\htdocs\\shop\\tools\\smarty\\plugins\\function.mailto.php';
+<?php if ($_valid && !is_callable('content_560fa3e10af931_64833046')) {function content_560fa3e10af931_64833046($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'C:\\xampp\\htdocs\\shop\\tools\\smarty\\plugins\\function.mailto.php';
 ?>
 
 <!-- MODULE Block contact infos -->
@@ -38,7 +38,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company']->value!='') {?>
             	<li>
             		<i class="icon-map-marker"></i><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value!='') {?><br><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value, ENT_QUOTES, 'UTF-8', true);?>
 <?php }?>
             	</li>
             <?php }?>

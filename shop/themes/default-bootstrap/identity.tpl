@@ -55,7 +55,7 @@
         </p>
         <form action="{$link->getPageLink('identity', true)|escape:'html':'UTF-8'}" method="post" class="std">
             <fieldset>
-                <div class="clearfix">
+<!--                 <div class="clearfix">
                     <label>{l s='Social title'}</label>
                     <br />
                     {foreach from=$genders key=k item=gender}
@@ -65,7 +65,7 @@
                             {$gender->name}</label>
                         </div>
                     {/foreach}
-                </div>
+                </div> -->
                 <div class="required form-group">
                     <label for="firstname" class="required">
                         {l s='First name'}
@@ -84,7 +84,7 @@
                     </label>
                     <input class="is_required validate form-control" data-validate="isEmail" type="email" name="email" id="email" value="{$smarty.post.email}" />
                 </div>
-                <div class="form-group">
+<!--                 <div class="form-group">
                     <label>
                         {l s='Date of Birth'}
                     </label>
@@ -128,7 +128,7 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="required form-group">
                     <label for="old_passwd" class="required">
                         {l s='Current Password'}

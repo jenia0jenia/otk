@@ -30,8 +30,9 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a
 $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_c69d9eead832257f587f7c9ec0026fe2'] = 'Вы можете загрузить максимум 3 изображения.';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_acc66e14d297c1bfc20986bf593cb054'] = 'Миниатюры';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = 'В стандартном шаблоне эти изображения отображаются в верхнем горизонтальном меню, но только если эта категория относится первому уровню (подробную информацию смотрите в модуле \'Верхнее горизонтальное меню\').';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Миниатюры меню';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = 'Рекомендуемые размеры (для стандартного шаблона): %1spx x %2spx';
 
 
 return $_MODULE;

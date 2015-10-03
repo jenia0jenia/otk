@@ -101,7 +101,7 @@
 		<p><img src="{$img_dir}icon/userinfo.gif" alt="{l s='Information'}" class="icon" /><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">{l s='Click here to log in to your customer account.'}</a><br /><br /></p>
 	{/if}
 	<form method="post" action="{$action|escape:'html':'UTF-8'}" class="std" id="guestTracking">
-		<fieldset class="description_box box">
+<!-- 		<fieldset class="description_box box">
 			<h2 class="page-subheading">{l s='To track your order, please enter the following information:'}</h2>
                     <div class="text form-group">
                         <label>{l s='Order Reference:'} </label>
@@ -115,6 +115,7 @@
 			<p>
                 <button type="submit" name="submitGuestTracking" class="button btn btn-default button-medium"><span>{l s='Send'}<i class="icon-chevron-right right"></i></span></button>
             </p>
-		</fieldset>
+		</fieldset> -->
+		<h1>Cпасибо за заказ!</h1>
 	</form>
 {/if}
